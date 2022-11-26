@@ -8,7 +8,8 @@ public class DuplicateValue {
         { for (int j = i+1; j< array.length;j++){
 
             if ((array[i] == array[j]) &&(i !=j)){
-                System.out.println("Duplicate element :" +array[j]);
+                System.out.println("Duplicate element :" +array[j]);}
+            { System.out.println("DuplicateValue");
             }
         }
     }
